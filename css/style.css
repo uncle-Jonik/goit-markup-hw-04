@@ -1,0 +1,339 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+
+  --primary-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--primary-font);
+  color: var(--slate);
+  background-color: var(--white);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.body-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.h-one-text {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+.h-two-text {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.h-three-text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.button-text {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.logo {
+  font-family: var(--logo-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--iris);
+  margin-right: 76px;
+}
+.logo-light {
+  color: var(--cloud);
+}
+.logo-dark {
+  color: var(--navy-blue);
+}
+.footer {
+  font-weight: 500;
+  background-color: var(--navy-blue);
+}
+.footer-text {
+  font-weight: 400;
+  color: var(--cloud);
+  width: 264px;
+}
+
+/* ==============================./index.html============================== */
+
+/* ------------------------------header------------------------------ */
+.header {
+  background-color: var(--white);
+  border-bottom: 1px solid var(--cornflower);
+  height: 72px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav {
+  align-items: center;
+  display: flex;
+}
+.header-nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-list-content {
+  color: var(--navy-blue);
+  font-weight: 500;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.nav-list-content:hover,
+.nav-list-content:focus {
+  color: var(--ocean);
+}
+.header-address {
+  font-style: normal;
+  display: flex;
+  align-self: center;
+}
+.header-address-list {
+  display: flex;
+  gap: 40px;
+}
+.address-list-content {
+  font-weight: 400;
+  color: var(--slate);
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.address-list-content:hover,
+.address-list-content:focus {
+  color: var(--ocean);
+}
+/* ------------------------------herro------------------------------ */
+.herro {
+  background-color: var(--navy-blue);
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+.herro-title {
+  color: var(--white);
+  max-width: 496px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+.herro-button {
+  display: block;
+  background-color: var(--iris);
+  color: var(--white);
+  cursor: pointer;
+  padding: 16px 32px;
+  min-width: 169px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: none;
+  margin: 0 auto;
+}
+.herro-button:hover,
+.herro-button:focus {
+  background-color: var(--ocean);
+}
+/* ------------------------------benefits------------------------------ */
+.benefits-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.benefits-list {
+  display: flex;
+  gap: 24px;
+}
+.benefits-list-title {
+  color: var(--navy-blue);
+  margin-bottom: 8px;
+}
+.benefits-list-text {
+  width: 264px;
+}
+/* ------------------------------product-section------------------------------ */
+.product-section {
+  padding-bottom: 120px;
+}
+.product-section-title {
+  color: var(--navy-blue);
+  text-align: center;
+  margin-bottom: 72px;
+}
+.product-section-list {
+  display: flex;
+  gap: 24px;
+}
+/* ------------------------------team-secrion------------------------------ */
+.team-section {
+  background-color: var(--cloud);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.team-title {
+  text-align: center;
+  color: var(--navy-blue);
+  margin-bottom: 72px;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+.team-list-item {
+  background-color: var(--white);
+  height: 380px;
+
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.title-text-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.team-list-title {
+  color: var(--navy-blue);
+  text-align: center;
+  margin-bottom: 8px;
+}
+.team-list-text {
+  text-align: center;
+}
+/* ------------------------------footer------------------------------ */
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-container a {
+  display: inline-block;
+  margin-bottom: 16px;
+  margin-right: 0;
+}
+
+/* ==============================portfolio.html============================== */
+
+/* -------------------------------nav-section------------------------------- */
+.all-products-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.all-products-nav {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.product-nav-button {
+  background-color: var(--cloud);
+  color: var(--iris);
+  cursor: pointer;
+  padding: 12px 24px;
+
+  border-radius: 4px;
+  border: 1px solid var(--cornflower);
+}
+.product-nav-button:hover,
+.product-nav-button:focus {
+  background-color: var(--ocean);
+  color: var(--white);
+  border: 1px solid transparent;
+}
+/* ------------------------------example-section------------------------------ */
+.example-product-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.product-list-item {
+  max-height: 420px;
+}
+.f-li {
+  width: calc((100% - 48px) / 3);
+}
+
+.title-text-container-portfolio {
+  border: 1px solid var(--cornflower);
+  background-color: var(--white);
+  padding: 32px 16px;
+  border-top: none;
+}
+.product-list-title {
+  color: var(--navy-blue);
+  margin-bottom: 8px;
+}
+.product-list-text {
+  color: var(--slate);
+}
