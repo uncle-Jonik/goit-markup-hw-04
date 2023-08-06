@@ -291,8 +291,25 @@ img {
   justify-content: center;
   gap: 24px;
 }
-.social-icon {
-  fill: #03a9f4;
+/* ------------------------------customers-secrion------------------------------ */
+.customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.customers-title {
+  text-align: center;
+  margin-bottom: 72px;
+}
+.customers-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.customers-items {
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: 1px solid var(--light-slate);
 }
 
 /* ------------------------------footer------------------------------ */
