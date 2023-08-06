@@ -223,6 +223,12 @@ img {
   display: flex;
   gap: 24px;
 }
+.benefits-icon-box {
+  padding: 24px 100px;
+  border-radius: 4px;
+  background-color: var(--cloud);
+  margin-bottom: 8px;
+}
 .benefits-list-title {
   color: var(--navy-blue);
   margin-bottom: 8px;
