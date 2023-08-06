@@ -266,7 +266,6 @@ img {
 }
 .team-list-item {
   background-color: var(--white);
-  height: 380px;
 
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -284,7 +283,18 @@ img {
 }
 .team-list-text {
   text-align: center;
+  margin-bottom: 8px;
 }
+.team-icon-list {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.social-icon {
+  fill: #03a9f4;
+}
+
 /* ------------------------------footer------------------------------ */
 .footer {
   padding-top: 100px;
