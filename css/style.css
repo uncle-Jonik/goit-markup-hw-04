@@ -146,7 +146,6 @@ img {
   display: flex;
   gap: 40px;
 }
-
 .nav-list-content {
   color: var(--navy-blue);
   font-weight: 500;
@@ -289,7 +288,30 @@ img {
   display: flex;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 24px;
+}
+.team-wrapper-social-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--iris);
+}
+.team-wrapper-social-icon:hover,
+.team-wrapper-social-icon:focus {
+  background-color: var(--ocean);
+}
+.team-icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cloud);
+}
+.social-icon {
+  fill: currentColor;
 }
 /* ------------------------------customers-secrion------------------------------ */
 .customers {
@@ -309,7 +331,16 @@ img {
 .customers-items {
   padding: 16px 32px;
   border-radius: 4px;
+  color: var(--light-slate);
   border: 1px solid var(--light-slate);
+}
+.customers-items:hover,
+.customers-items:focus {
+  color: var(--ocean);
+  border: 1px solid var(--ocean);
+}
+.company-icon {
+  fill: currentColor;
 }
 
 /* ------------------------------footer------------------------------ */
@@ -317,10 +348,43 @@ img {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.footer-list {
+  display: flex;
+  gap: 120px;
+}
 .footer-container a {
   display: inline-block;
   margin-bottom: 16px;
   margin-right: 0;
+}
+.footer-item p {
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.footer-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 16px;
+}
+.footer-wrapper-social-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--iris);
+}
+.footer-wrapper-social-icon:hover,
+.footer-wrapper-social-icon:focus {
+  background-color: var(--green);
+}
+.footer-icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cloud);
 }
 
 /* ==============================portfolio.html============================== */
