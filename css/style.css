@@ -231,6 +231,8 @@ img {
 .herro-button:hover,
 .herro-button:focus {
   background-color: var(--ocean);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* ------------------------------benefits------------------------------ */
 .benefits-section {
@@ -242,6 +244,11 @@ img {
   gap: 24px;
 }
 .benefits-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+
   padding: 24px 100px;
   border-radius: 4px;
   background-color: var(--cloud);
@@ -538,9 +545,19 @@ img {
 
   padding: 8px;
   border-radius: 50%;
+  color: var(--navy-blue);
   background-color: var(--cornflower);
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+.modal-btn:hover {
+  color: var(--white);
+  background-color: var(--ocean);
+  border: none;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .modal-btn-icon {
-  fill: var(--navy-blue);
+  fill: currentColor;
 }
