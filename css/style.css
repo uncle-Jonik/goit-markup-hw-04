@@ -398,14 +398,9 @@ img {
 .footer-logo-text {
   margin-right: 120px;
 }
-.logo-text-list {
-}
-.logo-text-item {
-}
-.logo-text-item a {
-  display: inline-block;
+.footer-logo {
   margin-bottom: 16px;
-  margin-right: 0;
+  display: block;
 }
 .footer-text {
   font-weight: 400;
