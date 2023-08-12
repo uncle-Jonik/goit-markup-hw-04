@@ -96,7 +96,7 @@ img {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -196,6 +196,7 @@ img {
 }
 /* ------------------------------herro------------------------------ */
 .herro {
+  max-width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
   background-color: var(--navy-blue);
@@ -207,6 +208,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 .herro-title {
   color: var(--white);
