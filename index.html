@@ -30,7 +30,10 @@
           </a>
           <ul class="header-nav-list list">
             <li class="nav-list-item">
-              <a href="./index.html" class="nav-list-content link body-text">
+              <a
+                href="./index.html"
+                class="nav-list-content current link body-text"
+              >
                 Studio
               </a>
             </li>
@@ -74,7 +77,11 @@
           <h1 class="herro-title h-one-text">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="herro-button button-text">
+          <button
+            type="button"
+            class="herro-button button-text"
+            data-modal-open
+          >
             Order Service
           </button>
         </div>
@@ -477,5 +484,17 @@
         </ul>
       </div>
     </footer>
+
+    <!-- modal-window -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-btn" type="button" data-modal-close>
+          <svg class="modal-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
