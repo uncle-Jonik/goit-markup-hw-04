@@ -66,19 +66,19 @@ img {
 .body-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.32;
 }
 .h-one-text {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 1.12;
 }
 .h-two-text {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.72;
   text-transform: capitalize;
 }
 .h-three-text {
@@ -92,7 +92,7 @@ img {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.64;
 }
 
 .container {
@@ -250,7 +250,7 @@ img {
   justify-content: center;
   align-items: center;
   height: 112px;
-  padding: 24px 100px;
+
   border-radius: 4px;
   background-color: var(--cloud);
   margin-bottom: 8px;
@@ -318,9 +318,6 @@ img {
 }
 
 .team-icon-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 40px;
   height: 40px;
 }
@@ -483,9 +480,6 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-}
-.product-list-item {
-  max-height: 420px;
 }
 .product-list-link {
   display: block;
